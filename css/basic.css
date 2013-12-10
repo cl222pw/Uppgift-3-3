@@ -69,11 +69,11 @@ body {
 }
 #menu ul li a:visited {
 	display:inline-block;
-	color: beige;
+	color: #EAE7D2;
 	text-decoration: none;
 }
 #menu .active {
-	background: beige;
+	background: #EAE7D2;
 }
 #menu ul .active a:visited{
 	color: #797066;
@@ -81,34 +81,61 @@ body {
 
 /* Innehåll */
 #content {
-	background: beige;
-	border: 1px solid #797066;
+	background: #EAE7D2;
+	border: 1px solid #9C9084;
 	border-top: 0px;
-	padding:10px;
-}
-h1 {
-	font: 35px "Times New Roman"
+
 }
 #maincontent{
-	display:block;
+	display:inline-block;
 	width: 350px;
 	color: #797066;
 	font: 13px Verdana;
-	line-height: 155%
+	line-height: 155%;
+	padding:10px 0px 10px 10px;
 }
 #maincontent img {
 	float: left;
 	margin: 0px 3px 0px 0px;
 }
+#maincontent h1 {
+	font: 32px "Times New Roman";
+	padding: 10px 0px 10px 0px;
+}
 
+#subcontent {
+	display:inline-block;
+	float: right;
+	width: 210px;
+	margin-top: 10px;
+	padding: 10px;
+	border-left: 1px dashed #797066;
+}
+#subcontent h1 {
+	font: 17px "Times New Roman";
+	margin-top: -5px;
+	padding-bottom: 15px;
+}
+#subcontent p {
+	font: 9px verdana;
+	color:#797066;
+	line-height: 230%;
+}
+#subcontent h2{
+	font: 14px "Times New Roman";
+	margin-top: 25px;
 
-
-
-
-
-
-
-
+}
+#subcontent a:link {
+	color: black;
+	font: 12px verdana;
+}
+#subcontent a:visited {
+	color: black;
+}
+#subcontent li {
+	list-style: none;
+}
 
 
 
