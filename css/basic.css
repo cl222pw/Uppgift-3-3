@@ -1,1 +1,97 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+/* Färger: Beige-#EAE7D2, Ljus Brungrå-#9C9084, Brungrå-#797066 Mörk Brungrå-#51473D */
+
+/* Reset */
+*{
+	margin: 0px;
+	padding: 0px;
+	font: 
+}
+h1 {
+	font: 35px "Times New Roman"
+}
+body {
+	text-align:center;
+}
+
+#container{
+	border: 1px solid black;
+	width: 600px;
+	margin: 10px auto;
+	text-align: left;
+	background: #51473D;
+}
+#content {
+	background: beige;
+}
+
+#topbar{
+	background: #51473D;
+	border: grey;
+	color: beige;
+	text-align: right;
+	font: ;
+}
+
+#menu {
+	background: #797066;
+	color: beige;
+	margin-left: 15px;
+	padding: 0px;
+}
+#menu li {
+	display:inline-block;
+	list-style: none;
+	padding: 7px 21px;
+	font: 13px Verdana;
+	border: 1px solid #51473D;
+	border-bottom: 0px;
+	margin: 0px -3px;
+	background: #797066;
+	text-transform: capitalize;
+	
+}
+#menu ul {
+	background: #51473D;
+}
+#menu ul li a:link {
+	color: beige;
+	text-decoration: none;
+}
+#menu ul li a:visited {
+	color: beige;
+	text-decoration: none;
+}
+#menu .active {
+	background: beige;
+}
+#menu ul .active a:visited{
+	color: #797066;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
