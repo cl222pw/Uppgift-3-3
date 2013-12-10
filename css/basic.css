@@ -105,7 +105,7 @@ body {
 #maincontent{
 	display:inline-block;
 	width: 350px;
-	color: #797066;
+	color: #7F776F;
 	font: 13px Verdana;
 	line-height: 155%;
 	padding:10px 0px 10px 10px;
@@ -126,7 +126,7 @@ body {
 	width: 210px;
 	margin-top: 25px;
 	padding: 10px;
-	border-left: 1px dashed #797066;
+	border-left: 1px dashed #7F776F;
 }
 #subcontent h1 {
 	font: 17px "Times New Roman";
@@ -136,12 +136,12 @@ body {
 }
 #subcontent p {
 	font: 9px verdana;
-	color:#797066;
+	color:#7F776F;
 	line-height: 230%;
 }
 #subcontent h2{
 	font: 14px "Times New Roman";
-	margin-top: 25px;
+	margin-top: 30px;
 	color:#51473D;
 
 }
