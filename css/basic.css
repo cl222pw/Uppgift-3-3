@@ -72,14 +72,30 @@ body {
 	color: #EAE7D2;
 	text-decoration: none;
 }
+#menu ul li a:hover {
+	display:inline-block;
+	color: #EAE7D2;
+	background: #9C9084;
+	text-decoration: none;
+	margin: -7px -21px;
+	padding: 7px 21px;
+}
 #menu .active {
 	background: #EAE7D2;
 }
 #menu ul .active a:visited{
 	color: #797066;
 }
+#menu ul .active a:hover{
+	display:inline-block;
+	color: #797066;
+	background: #EAE7D2;
+	text-decoration: none;
+	margin: -7px -21px;
+	padding: 7px 21px;
+}
 
-/* Innehåll */
+/* Huvudinnehåll */
 #content {
 	background: #EAE7D2;
 	border: 1px solid #9C9084;
@@ -103,11 +119,12 @@ body {
 	padding: 10px 0px 10px 0px;
 }
 
+/* Sidoinnehåll */
 #subcontent {
 	display:inline-block;
 	float: right;
 	width: 210px;
-	margin-top: 10px;
+	margin-top: 25px;
 	padding: 10px;
 	border-left: 1px dashed #797066;
 }
@@ -115,6 +132,7 @@ body {
 	font: 17px "Times New Roman";
 	margin-top: -5px;
 	padding-bottom: 15px;
+	color:#51473D;
 }
 #subcontent p {
 	font: 9px verdana;
@@ -124,21 +142,28 @@ body {
 #subcontent h2{
 	font: 14px "Times New Roman";
 	margin-top: 25px;
+	color:#51473D;
 
 }
 #subcontent a:link {
-	color: black;
+	color: #51473D;
 	font: 12px verdana;
 }
 #subcontent a:visited {
-	color: black;
+	color: #51473D;
 }
 #subcontent li {
 	list-style: none;
 }
 
-
-
+/* Botten info */
+#bottomcontent {
+	display: block;
+	width: 600;
+	color: #797066;
+	padding: 0px 0px 15px 10px;
+	font: 10px Verdana Italic;
+}
 
 
 
