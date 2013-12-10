@@ -6,37 +6,45 @@
 	padding: 0px;
 	font: 
 }
-h1 {
-	font: 35px "Times New Roman"
-}
 body {
 	text-align:center;
 }
 
 #container{
-	border: 1px solid black;
+	border: 0px solid #797066;
 	width: 600px;
 	margin: 10px auto;
 	text-align: left;
 	background: #51473D;
-}
-#content {
-	background: beige;
+	padding-top:20px;
 }
 
+/* Top */
 #topbar{
-	background: #51473D;
+	display: block;
 	border: grey;
 	color: beige;
 	text-align: right;
-	font: ;
+	font: 10px Verdana italic;
+	background-image:url('pics/coffey.jpg');
+	background-repeat: no-repeat;
+	background-color: #51473D;
+	width: 600px;
+	height: 200px;
+	padding-top: 3px;
+	padding-bottom: 2px;
 }
 
+/* Meny */
 #menu {
 	background: #797066;
 	color: beige;
 	margin-left: 15px;
 	padding: 0px;
+}
+#menu a:link{
+	display:none;
+
 }
 #menu li {
 	display:inline-block;
@@ -51,13 +59,16 @@ body {
 	
 }
 #menu ul {
+
 	background: #51473D;
 }
 #menu ul li a:link {
+	display:inline-block;
 	color: beige;
 	text-decoration: none;
 }
 #menu ul li a:visited {
+	display:inline-block;
 	color: beige;
 	text-decoration: none;
 }
@@ -68,10 +79,27 @@ body {
 	color: #797066;
 }
 
-
-
-
-
+/* Innehåll */
+#content {
+	background: beige;
+	border: 1px solid #797066;
+	border-top: 0px;
+	padding:10px;
+}
+h1 {
+	font: 35px "Times New Roman"
+}
+#maincontent{
+	display:block;
+	width: 350px;
+	color: #797066;
+	font: 13px Verdana;
+	line-height: 155%
+}
+#maincontent img {
+	float: left;
+	margin: 0px 3px 0px 0px;
+}
 
 
 
