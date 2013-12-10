@@ -11,12 +11,14 @@ body {
 }
 
 #container{
-	border: 0px solid #797066;
+	border-top: 20px solid #51473D;
 	width: 600px;
 	margin: 10px auto;
 	text-align: left;
 	background: #51473D;
-	padding-top:20px;
+	background-image:url('pics/coffey.jpg');
+	background-repeat: no-repeat;
+	background-color: #51473D;
 }
 
 /* Top */
@@ -26,13 +28,10 @@ body {
 	color: beige;
 	text-align: right;
 	font: 10px Verdana italic;
-	background-image:url('pics/coffey.jpg');
-	background-repeat: no-repeat;
-	background-color: #51473D;
 	width: 600px;
-	height: 200px;
-	padding-top: 3px;
-	padding-bottom: 2px;
+	height: 20px;
+	margin-top: -15px;
+	padding-right: 10px;
 }
 
 /* Meny */
@@ -41,6 +40,7 @@ body {
 	color: beige;
 	margin-left: 15px;
 	padding: 0px;
+	margin-top: 200px;
 }
 #menu a:link{
 	display:none;
