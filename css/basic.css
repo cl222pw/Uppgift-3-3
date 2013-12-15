@@ -83,6 +83,9 @@ body {
 #menu .active {
 	background: #EAE7D2;
 }
+#menu ul .active a:link{
+	color: #797066;
+}
 #menu ul .active a:visited{
 	color: #797066;
 }
@@ -103,6 +106,7 @@ body {
 
 }
 #maincontent{
+	float:;
 	display:inline-block;
 	width: 350px;
 	color: #7F776F;
