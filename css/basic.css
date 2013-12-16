@@ -1,15 +1,11 @@
-/* Färger: Beige-#EAE7D2, Ljus Brungrå-#9C9084, Brungrå-#797066 Mörk Brungrå-#51473D */
-
 /* Reset */
 *{
 	margin: 0px;
 	padding: 0px;
-	font: 
 }
 body {
 	text-align:center;
 }
-
 #container{
 	border-top: 20px solid #51473D;
 	width: 600px;
@@ -27,7 +23,8 @@ body {
 	border: grey;
 	color: beige;
 	text-align: right;
-	font: 10px Verdana italic;
+	font: 10px "Verdana";
+	font-style: italic;
 	width: 600px;
 	height: 20px;
 	margin-top: -15px;
@@ -106,7 +103,7 @@ body {
 
 }
 #maincontent{
-	float:;
+	float:left;
 	display:inline-block;
 	width: 350px;
 	color: #7F776F;
@@ -129,6 +126,7 @@ body {
 	float: right;
 	width: 210px;
 	margin-top: 25px;
+	margin-bottom: 20px;
 	padding: 10px;
 	border-left: 1px dashed #7F776F;
 }
@@ -166,7 +164,9 @@ body {
 	width: 600;
 	color: #797066;
 	padding: 0px 0px 15px 10px;
-	font: 10px Verdana Italic;
+	font: 10px "Verdana";
+	font-style: italic;
+	text-align: left;
 }
 
 
